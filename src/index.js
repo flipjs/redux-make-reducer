@@ -1,1 +1,6 @@
-// your api here
+export function makeReducer () {
+  return undefined
+}
+
+export default makeReducer
+

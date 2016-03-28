@@ -1,6 +1,7 @@
 import test from 'ava'
+import makeReducer from '../src'
 
-test('test ava', (t) => {
-  t.same(true, true)
+test('makeReducer', (t) => {
+  t.same(makeReducer(), undefined)
 })
 
